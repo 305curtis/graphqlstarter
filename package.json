@@ -1,0 +1,27 @@
+{
+  "name": "graphqlstarter",
+  "version": "1.0.0",
+  "description": "First GraphQL app for testing purposes only",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/305curtis/graphqlstarter.git"
+  },
+  "author": "Rosenthol Curtis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/305curtis/graphqlstarter/issues"
+  },
+  "homepage": "https://github.com/305curtis/graphqlstarter#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.6"
+  }
+}
